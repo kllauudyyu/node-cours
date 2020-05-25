@@ -1,0 +1,111 @@
+body {
+    color: #f3f3f3;
+    background-color: rgb(45, 45, 45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/**--------------------maps api ------------------*/
+
+#map {
+    width: auto;
+    height: 400px;
+}
+
+.location-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#location {
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+}
+
+input {
+    border: 2px solid red;
+    padding: 8px;
+}
+
+input::placeholder {
+    background-color: red;
+}
+
+input:focus {
+    background-color: rgb(48, 214, 173);
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid red;
+    background: red;
+}
+
+button:hover {
+    background: rgb(48, 214, 173);
+}
+
+
+/**--------------------maps api ------------------*/
+
+.back-container {
+    background-color: rgb(70, 70, 70);
+    padding: 5vh 15vh;
+    border-radius: 15px;
+    margin: 5vh;
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.linia {
+    width: 60%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.center-container {
+    margin: 20vh 0;
+}
+
+footer {
+    color: #acacac;
+    background-color: rgb(36, 36, 36);
+    margin-top: 16px;
+    margin: auto 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #965111;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 150px;
+    display: right;
+}
